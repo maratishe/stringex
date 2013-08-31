@@ -1,0 +1,10 @@
+
+# charts
+php charts.php
+
+# run simulations
+run.php
+
+# make index
+php make.stringex.php 100 index report.json keyHashBits=16,keyHashMask=8,docHashBits=32,docHashMask=28,localSizeLimit=2000
+php make.lucene.php 1000 index report.json
